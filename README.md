@@ -33,7 +33,9 @@ The prize will depend on the random result of the reels when they finish rolling
 - Constructors
 - Try-Catch
 - Design Pattern (Prototype)
-- Import
+- Interfaces
+- Try-catch
+- Access methods
 - Package
 - Files
 
