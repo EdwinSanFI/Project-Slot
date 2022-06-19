@@ -6,8 +6,12 @@
 
 # Table of contents
 - [Overview](#overview)
-- [Install](#how-to-install-and-run)
+- [What does the program use?](#what-does-the-program-use)
+- [Get Started](#get-started)
+- [How to play?](#how-to-play)
+- [How could I win?](#how-could-i-win)
 - [Results](#results)
+- [Contributing](#contributing)
 
 # Overview
 The project consists of the development of an application where the user can experience a casino together with the intensity of emotions that this entails.
@@ -35,30 +39,35 @@ The prize will depend on the random result of the reels when they finish rolling
 
 
 
-# How does it work?
-You have to compile the program first and then run it
-```java
-javac Slot/Slot.java // Compile the program
-java Slot.Slot // run the program
+# Get started
+
+<h3>Clone the respository</h3>
+
+Using git
+```git
+git clone git@github.com:EdwinSanFI/Project-Slot.git
 ```
 
-# Get started
-<h3>Clone the respository</h3
-  
-Clone this repository by git and enter it:
-  
-  
 <h3> Compile and Run the project </h3>
 
+* To compile the project
+```java
+javac Slot/Slot.java
+```
+* To run the project
+```java
+java Slot.Slot
+```
+
+[Play](#how-to-play) and Enjoy the project! :D
 
 
-# How to play
+# How to play?
 U need an account
 
 
 
-
-# How could i win?
+# How could I win?
 There are 5 possibles ways to win
 
 <p align="center" style="cursor: none">
