@@ -39,8 +39,6 @@ The prize will depend on the random result of the reels when they finish rolling
 - Package
 - Files
 
-
-
 # Get started
 
 <h3>Clone the respository</h3>
@@ -67,7 +65,9 @@ java Slot.Slot
 # How to play?
 U need an account
 
+The minimum balance to enter the account is 20 dollars and the maximum is 1,000,000 dollars.
 
+Only accept bets of 5, 7, 10, 20, 50 dollars
 
 # How could I win?
 There are 5 possibles ways to win
@@ -84,12 +84,16 @@ But also, you can 2 ways to win at the same time, for example:
   <img src="https://user-images.githubusercontent.com/6312342/173405252-50dd5e99-2ca4-4743-bc56-7aa0b15119e7.png" alt="Combinations" width="800px">
 </p>
 
-This is the betting table when you bet 5 dollars
+# Prize Table
+
+This is the prize table when you bet 5 dollars.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/173397528-3ab9e12b-f3c7-474f-9d8c-02591fd91424.png" alt="Betting Table" height="500px">
 </p>
 
-Probability to get an object
+# Probability
+
+Probability to get the objects
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/173405343-d768af9d-8595-4db3-bd67-af11db284d87.png" alt="Betting Table" height="500px">
 </p>
@@ -106,13 +110,23 @@ Probability to get an object
   <img src="https://user-images.githubusercontent.com/6312342/173405491-becb1453-7066-42b8-95d2-967e8020b95f.png" alt="Betting Table" height="500px">
 </p>
 
-For the best we use the rules of 3
+For the bets we use the next rule of 3:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174504124-a2497869-316d-4478-9200-ffbd009a389e.png" alt="Betting Table" height="500px">
+</p>
 
-If we bet 30 dollares and we got 5 grapes the prime will be 3,900 credits.
+* Example 1:
+  * When you have 3 watermelons, you could get 160 credits but if your bet was of 5 dollars you will get 160 credits.
+* Example 2:
+  * When you have 3 watermelons, you could get 160 credits but if your bet was of 50 dollars you will get 1,600 credits.
+* Example 3:
+  * When you have 3 watermelons, you could get 160 credits but if your bet was of 15 dollars you will get 7,500 credits.
+* Example 4:
+  * When you have 4 diamonds and 5 cherrys, you could get 6,500 credits but if your bet was of 30 dollars you will get 39,000 credits.
 
-The minimum balance to enter the account is 20 dollars and the maximum is 1,000,000 dollars.
+You can check the list of awards [here](#prize-table)
 
-Only accept bets of 5, 7, 10, 20, 50 dollars
+
 
 # Contributing
 Contributions are very welcome!
