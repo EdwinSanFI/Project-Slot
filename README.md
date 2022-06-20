@@ -92,9 +92,11 @@ java Slot.Slot
   <img src="https://user-images.githubusercontent.com/6312342/174522695-6f560377-2e73-42eb-b0e4-74cc6c68647b.png" alt="Roulette">
 </p>
 
-  You can review the [ways you can win](#how-could-i-win).
+  You can review [here](#how-could-i-win) the ways you can win.
   
-  You can review [these examples](#winning-examples) when you win.
+  You can review [here](#prize-table) the explanation of the results.
+  
+  You can review [here](#winning-examples) some examples when you win.
 
   You can review [here](#prize-table) the prize table.
 
