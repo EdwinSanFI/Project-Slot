@@ -206,14 +206,16 @@ This is the prize table when you bet 5 dollars. The higher your bet, the higher 
 
 In addition, within the program you can review the prize list.
 
-1. After entering your account, you must choose option 3 - **Check prize list **
+1. After entering your account, you must choose option 3 **Check prize list **
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/174661416-87fbe448-bef7-4fe8-ac37-b3796d963395.png" alt="Prize List in the program" height="500px">
+  <img src="https://user-images.githubusercontent.com/6312342/174661416-87fbe448-bef7-4fe8-ac37-b3796d963395.png" alt="Prize List in the program">
 </p>
 
 2. The prize list will be printed.
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/174661637-1280c151-44ff-405b-8952-9f8046bc1fb7.png" alt="Prize List in the program" height="500px">
+  <img src="https://user-images.githubusercontent.com/6312342/174661637-1280c151-44ff-405b-8952-9f8046bc1fb7.png" alt="Prize List in the program">
 </p>
 
 ## Probability
