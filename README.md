@@ -65,25 +65,25 @@ java Slot.Slot
 # How to play?
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/174519390-8265d103-6ca9-4e9b-b79d-1187ce29761f.png" alt="First menu" width="400px">
+  <img src="https://user-images.githubusercontent.com/6312342/174519390-8265d103-6ca9-4e9b-b79d-1187ce29761f.png" alt="First menu">
 </p>
 
-<ul>
-  <ol>The first step is to enter the game with your account (username and password), If you don't have an account you can [Create](#how-to-create-an-account) one.</ol>
-  <p align="center">
-    <img src="https://user-images.githubusercontent.com/6312342/174520439-611c1569-53ac-4fd7-b427-f6cef2d9bf70.png" alt="Second menu" width="250px">
-  </p>
-  <ol>The program will display a welcome message showing the amount of dollars and credit you have.</ol>
-  <ol>If you have enough money, you can play by entering option #1, otherwise you will have to deposit money into your account and a second menu with the new options available.</ol>
-  <p align="center">
-    <img src="https://user-images.githubusercontent.com/6312342/174520439-611c1569-53ac-4fd7-b427-f6cef2d9bf70.png" alt="Play" width="250px">
-  </p>
-  <p align="center">
-    <img src="https://user-images.githubusercontent.com/6312342/174520841-83cc033a-189c-4ef6-a93e-01a83e4ba51a.png" alt="Play" width="250px">
-  </p>
-</ul>
 
-# How to create an account?
+1. The first step is to enter the game with your account (username and password), If you don't have an account you can [Create](#how-to-create-an-account) one.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174520439-611c1569-53ac-4fd7-b427-f6cef2d9bf70.png" alt="Second menu">
+</p>
+
+2. The program will display a welcome message showing the amount of dollars and credit you have.
+  
+3. If you have enough money, you can play by entering option #1, otherwise you will have to deposit money into your account and a second menu with the new options available.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174521953-8802538f-40fb-4903-8ce4-6fc1c6fd8167.png" alt="Play">
+</p>
+![second_menu](https://user-images.githubusercontent.com/6312342/174521953-8802538f-40fb-4903-8ce4-6fc1c6fd8167.png)
+
+
+## How to create an account?
 
 * You must enter option 1 in the console. 
 * The program will ask you for the username and password twice, once to save it and once to confirm the password.
@@ -97,7 +97,7 @@ The minimum balance to enter the account is 20 dollars and the maximum is 1,000,
 
 Only accept bets of 5, 7, 10, 20, 50 dollars
 
-# How could I win?
+## How could I win?
 The ways to win is by having the items in the next 5 prize lines.
 
 <p align="center">
@@ -112,21 +112,21 @@ But there is the possibility that prize lines are mixed and thus have a higher r
   <img src="https://user-images.githubusercontent.com/6312342/173405252-50dd5e99-2ca4-4743-bc56-7aa0b15119e7.png" alt="Combinations" width="800px">
 </p>
 
-# Prize Table
+## Prize Table
 
 This is the prize table when you bet 5 dollars. The higher your bet, the higher your prize.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174515288-9874a248-5b9c-4fac-af6d-97723256ca43.png" alt="Betting Table" height="500px">
 </p>
 
-# Probability
+## Probability
 
 Probability to get a item.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174515340-31c9ac34-df0a-47da-bf13-397932a566d5.png" alt="Probability to get an object" height="500px">
 </p>
 
-# Results
+## Results
 
 <ul>
   <li> When you get 3 items on one line, they are painted on color red</li>
@@ -155,5 +155,5 @@ To know what the prize is according to the bet, we use a rule of 3:
 
 You can check the list of awards [here](#prize-table)
 
-# Contributing
+## Contributing
 Contributions are very welcome!
