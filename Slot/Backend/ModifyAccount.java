@@ -97,9 +97,9 @@ public class ModifyAccount {
         int dineroUsuario = Integer.parseInt(usuario[2]);
         if (creditosUsuario != 0 && creditosUsuario >= credapes) {
             dineroUsuario += credapes*0.1;
-            System.out.println("\tThe new dollar amount is: " + GREEN +dineroUsuario+RESET);
+            System.out.println("\t\tThe new dollar amount is: " + GREEN +dineroUsuario+RESET);
             creditosUsuario -= credapes;
-            System.out.println("\tRemaining credits: " +GREEN+ creditosUsuario+RESET);
+            System.out.println("\t\tRemaining credits: " +GREEN+ creditosUsuario+RESET);
 
             try {
                 String guardarInformacion = "";
@@ -136,7 +136,7 @@ public class ModifyAccount {
             }
 
         } else {
-            System.out.println("There is not enough credits to convert to dollars");
+            System.out.println(YELLOW+"\n\t\tThere is not enough credits to convert to dollars"+RESET);
         }
     }
 
@@ -144,7 +144,7 @@ public class ModifyAccount {
         int dineroUsuario = Integer.parseInt(usuario[2]);
         if (dineroUsuario != 0 && dineroUsuario >= retpes) {
     		dineroUsuario -= retpes;
-	    	System.out.println("\n\t"+RED+retpes+RESET+" withdrawn dollars. \n\t"+ GREEN+dineroUsuario+RESET+" remaining dollars.");
+	    	System.out.println("\n\t\t"+RED+retpes+RESET+" withdrawn dollars. \n\t\t"+ GREEN+dineroUsuario+RESET+" remaining dollars.");
             try {
                 String guardarInformacion = "";
                 BufferedReader csvReader = new BufferedReader(new FileReader("./Slot/Backend/accounts.csv"));
@@ -176,7 +176,7 @@ public class ModifyAccount {
                 e.printStackTrace();
             }
 	    } else {
-	        System.out.println("No hay dinero suficiente");
+	        System.out.println("\n\t\t"+RED+"There is not enough dollars to withdraw"+RESET);
 	    }
     }
 

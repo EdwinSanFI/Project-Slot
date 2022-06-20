@@ -261,17 +261,17 @@ public class User{
                                     break;
                                 case 3:
                                     System.out.println(BLUE+"\t\tCREDITS TO DOLLARS"+RESET);
-                                    System.out.println("\n\tAvailable credits: " + GREEN +user[3]+RESET);
-                                    System.out.println("\n\tEnter the amount of credits you want to convert to dollars without decimal: ");
-                                    System.out.print("\t");
+                                    System.out.println("\n\t\tAvailable credits: " + GREEN +user[3]+RESET);
+                                    System.out.println("\n\t\tEnter the amount of credits you want to convert to dollars without decimal: ");
+                                    System.out.print("\t\t");
                                     int creditsDollars = sc.nextInt();
                                     ma.creditsToDollars(creditsDollars, user);
                                     break;
                                 case 4:
-                                    System.out.println(BLUE+"\t\tWITHDRAW DOLLARS"+RESET);
-                                    System.out.println("\n\tDollars available: " + GREEN+user[2]+RESET);
-                                    System.out.println("\tHow much do you want to withdraw? ");
-                                    System.out.print("\t");
+                                    System.out.println(BLUE+"\t\t\tWITHDRAW DOLLARS"+RESET);
+                                    System.out.println("\n\t\tDollars available: " + GREEN+user[2]+RESET);
+                                    System.out.println("\t\tHow much do you want to withdraw? ");
+                                    System.out.print("\t\t");
                                     int dollars = sc.nextInt();
                                     ma.withdrawDollars(dollars, user);
                                     break;
@@ -298,7 +298,7 @@ public class User{
                         awardList();
                         break;
                     case 4:
-                        System.out.println(YELLOW+"\n¡Thank you for playing!\n"+RESET);
+                        System.out.println(YELLOW+"\nThank you for playing, come back soon!! \n"+RESET);
                         opc = 5;
                         try{
                             Thread.sleep(500);
