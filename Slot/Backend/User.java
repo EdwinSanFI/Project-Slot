@@ -203,7 +203,7 @@ public class User{
         String user[] = null;
         String menu = "\n1. Play \n2. Modify account \n3. See award list \n4. Log out";
 
-        String menuModify = "\n\t1. Enter dollars" +
+        String menuModify = "\n\t1. Deposit dollars" +
                                 "\n\t2. Dollars to credits" +
                                 "\n\t3. Credits to dollars" +
                                 "\n\t4. Withdraw dollars" +
@@ -240,7 +240,7 @@ public class User{
                             user = searchUser(user[0]);
                             switch (opc2) {
                                 case 1:
-                                    System.out.println(BLUE+"\n\t\tENTER DOLLARS"+RESET);
+                                    System.out.println(BLUE+"\n\t\tDEPOSIT DOLLARS"+RESET);
                                     System.out.println(YELLOW+"\n\t\tYou must enter a minimum of 20 or a maximum of 1,000,000 dollars"+RESET);
                                     System.out.println("\t\tAmount of dollars to enter: ");
                                     System.out.print("\t\t");
