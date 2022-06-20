@@ -108,16 +108,17 @@ java Slot.Slot
 
 
 7. After leave, the second menu will appear. In the menu:
-* If you choose option 2 you can modify the account to:
-  * [Deposit Dollars](#how-to-deposit-money)
-  * Change [dollars to credits](#)
-  * Change [credits to dollars](#)
-  * [Withdraw dollars](#)
-  * Save and exit[](#)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174662437-ead73b02-7db6-4cf3-97b5-914acfb77478.png" alt="Roulette">
 </p>
+
+* If you choose option 2 you can modify the account to:
+  * [Deposit Dollars](#how-to-deposit-money)
+  * Change [dollars to credits](#change-dollars-to-credits)
+  * Change [credits to dollars](#change-credits-to-dollars)
+  * [Withdraw dollars](#how-to-withdraw-dollars)
+  * Save and exit
 
 * If you choose option 3 you can check the [prize table](#prize-table)
 * If you choose option 4, the program will finish.
@@ -167,29 +168,42 @@ java Slot.Slot
 
 ## Change dollars to credits
 
+* The program will print the amount of dollars available to convert to credits. With this, you can decide the quantity.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682299-ce64113e-b105-45b2-b4da-788724b801e2.png" alt="Combinations">
 </p> 
+
+* But if you decide to exchange more dollars than you have available, the program will print an error message.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682300-5218fff4-761f-4781-87b4-e63d436c12e7.png" alt="Combinations">
 </p> 
 
-
 ## Change credits to dollars
+
+* The program will print the amount of credits available to convert to dollars. With this, you can decide the quantity.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682294-5cba59de-7b58-4376-933b-9ee4b96e9d8c.png" alt="Combinations">
 </p>
+
+* But if you decide to exchange more credits than you have available, the program will print an error message.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682296-95a6368f-4e08-4cec-b3ce-33b8d9ebd3c2.png" alt="Combinations">
 </p>
 
-
 ## Withdraw dollars
+
+* The program will print the amount of dollars available to withdraw. With this, you can decide the quantity.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682282-e2c46b86-0ed0-45d1-ab00-23edca683fe7.png" alt="Combinations">
 </p>
+
+* But if you decide to withdraw more dollars than you have available, the program will print an error message.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682285-d21c374c-7c41-4013-b2a0-6395bb36072d.png" alt="Combinations">
 </p>
