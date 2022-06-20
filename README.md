@@ -79,6 +79,8 @@ This is the file organization using **package**.
 
 # How to play?
 
+0. You have to run the project first.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174519390-8265d103-6ca9-4e9b-b79d-1187ce29761f.png" alt="First menu">
 </p>
