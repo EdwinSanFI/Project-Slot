@@ -86,15 +86,30 @@ java Slot.Slot
   <img src="https://user-images.githubusercontent.com/6312342/174522534-7b1cde9d-cac9-4e88-a7af-8a3807fa6983.png" alt="Play menu">
 </p>
 
-5. When you enter the letter P, it will ask you to enter the bet (only accepts bets of 5, 7, 10, 15, 20, 30, 50 or 100 dollars) and after enter the bet, the result of the roulette will be printed. You can review [these examples](#winning-examples) when you win
+5. When you enter the letter P, it will ask you to enter the bet (only accepts bets of 5, 7, 10, 15, 20, 30, 50 or 100 dollars) and after enter the bet, the result of the roulette will be printed. 
+
+  You can review [these examples](#winning-examples) when you win
+
+  You can review [here](#prize-table) the prize table
+  
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174522695-6f560377-2e73-42eb-b0e4-74cc6c68647b.png" alt="Roulette">
 </p>
 
+6. The program will repeat the previous menu until the money runs out or you decide to leave (by entering the letter E).
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174524762-36908b1e-8da6-49fb-84ed-e696670561c1.png" alt="Roulette">
+</p>
 
 
+7. After leave, the second menu will appear. In the menu:
+* If you choose option 2 you can modify the account to:
+  * Opcion 1
+  * Opcion 2
 
 
+* If you choose option 3 you can [check the list of awards](#)
+* If you choose option 4 the program will finish.
 
 
 
