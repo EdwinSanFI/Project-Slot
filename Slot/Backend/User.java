@@ -24,7 +24,7 @@ public class User{
     String RESET = "\u001B[0m";
 
     public void awardList () {
-        System.out.println(BLUE+"\n\tAward list for bets of 5 dollars:\n"+RESET);
+        System.out.println(BLUE+"\n\tPrize list for bets of 5 dollars:\n"+RESET);
         ArrayList<String[]> awards = new ArrayList<>();
         String[] header = {"Name      ", " 3 objects ", " 4 objects ", " 5 objects"};
         awards.add(header);
@@ -201,7 +201,7 @@ public class User{
         int opc = 0;
         int opc2 = 0;
         String user[] = null;
-        String menu = "\n1. Play \n2. Modify account \n3. See award list \n4. Log out";
+        String menu = "\n1. Play \n2. Modify account \n3. Check prize list \n4. Log out";
 
         String menuModify = "\n\t1. Deposit dollars" +
                                 "\n\t2. Dollars to credits" +
