@@ -182,16 +182,11 @@ java Slot.Slot
   <img src="https://user-images.githubusercontent.com/6312342/174523703-6bd4f8f0-37b2-43cd-8454-b2bfb9b11d5e.png" alt="Example 7 winning">
 </div>
 
-
-
-
-
-
 ## How could I win?
 The ways to win is by having the items in the next 5 prize lines.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/173405073-cb46149c-2b38-4371-9989-2af5f15b8af6.png" alt="Awards" height="300px">
+  <img src="https://user-images.githubusercontent.com/6312342/173405073-cb46149c-2b38-4371-9989-2af5f15b8af6.png" alt="Prizes" height="300px">
 </p>
 
 But there is the possibility that prize lines are mixed and thus have a higher reward, for example:
@@ -206,7 +201,19 @@ But there is the possibility that prize lines are mixed and thus have a higher r
 
 This is the prize table when you bet 5 dollars. The higher your bet, the higher your prize.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/174515288-9874a248-5b9c-4fac-af6d-97723256ca43.png" alt="Betting Table" height="500px">
+  <img src="https://user-images.githubusercontent.com/6312342/174515288-9874a248-5b9c-4fac-af6d-97723256ca43.png" alt="Prize list" height="500px">
+</p>
+
+In addition, within the program you can review the prize list.
+
+1. After entering your account, you must choose option 3 - **Check prize list **
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174661416-87fbe448-bef7-4fe8-ac37-b3796d963395.png" alt="Prize List in the program" height="500px">
+</p>
+
+2. The prize list will be printed.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174661637-1280c151-44ff-405b-8952-9f8046bc1fb7.png" alt="Prize List in the program" height="500px">
 </p>
 
 ## Probability
