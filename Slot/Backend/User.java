@@ -109,7 +109,7 @@ public class User{
                             /** Actualiza los creditos ganados */
                             ma.modifyCredits(newCredits, user, bet);
                         } else {
-                            System.out.println("\nYou didn't win anything, good luck next time");
+                            System.out.println("\nYou didn't win, good luck next time");
                             System.out.println(RED+"\t\t"+"-"+bet+RESET);
                             ma.modifyMoney(bet, user);
                         }
@@ -204,7 +204,7 @@ public class User{
         String menu = "\n1. Play \n2. Modify account \n3. See award list \n4. Log out";
 
         String menuModify = "\n\t1. Enter dollars" +
-                                "\n\t2. Dolars to credits" +
+                                "\n\t2. Dollars to credits" +
                                 "\n\t3. Credits to dollars" +
                                 "\n\t4. Withdraw dollars" +
                                 "\n\t5. Save and exit";
@@ -218,8 +218,8 @@ public class User{
         ac.welcome(user);
 
         while (opc != 5) {
+            System.out.println("\nChoose an option: " + menu);
             try {
-                System.out.println("\nChoose an option: " + menu);
                 opc = sc.nextInt();
                 sc.nextLine();
                 user = searchUser(user[0]);
@@ -230,9 +230,6 @@ public class User{
                             user = searchUser(user[0]);
                             automaticsPull = automaticsPull(user);
                         }
-                        System.out.println("\nChoose an option: " + menu);
-                        opc = sc.nextInt();
-                        sc.nextLine();
                         break;
                     case 2:
                         System.out.println(BLUE+"\tMODIFY ACCOUNT\n"+RESET);
@@ -244,23 +241,22 @@ public class User{
                             switch (opc2) {
                                 case 1:
                                     System.out.println(BLUE+"\n\t\tENTER DOLLARS"+RESET);
-                                    System.out.println(YELLOW+"\n\\ttYou must enter a minimum of 20 or a maximum of 1,000,000 dollars"+RESET);
+                                    System.out.println(YELLOW+"\n\t\tYou must enter a minimum of 20 or a maximum of 1,000,000 dollars"+RESET);
                                     System.out.println("\t\tAmount of dollars to enter: ");
-                                    System.out.print("\t");
+                                    System.out.print("\t\t");
                                     int enterDollars = sc.nextInt();
                                     if (enterDollars > 19 && enterDollars < 1000001) {
                                         ma.enterDollars(enterDollars, user);
                                     } else {
-                                        System.out.println(RED+"\t\tInvalid Quantity"+RESET);
+                                        System.out.println(RED+"\n\t\tInvalid Quantity"+RESET);
                                     }
                                     break;
                                 case 2:
                                     System.out.println(BLUE+"\t\tDOLLARS TO CREDITS"+RESET);
-                                    System.out.println("\n\tDollars available: " + GREEN+ user[2]+RESET);
-                                    System.out.println("\tAmount of dollars you want to convert to credits: ");
-                                    System.out.print("\t");
+                                    System.out.println("\n\t\tDollars available: " + GREEN+ user[2]+RESET);
+                                    System.out.println("\t\tAmount of dollars you want to convert to credits: ");
+                                    System.out.print("\t\t");
                                     int dollarsCredits = sc.nextInt();
-                                    // pesosACreditos(pesacred, user);
                                     ma.dollarsToCredits(dollarsCredits, user);
                                     break;
                                 case 3:
@@ -296,13 +292,10 @@ public class User{
                             System.out.print("\t");
                             opc2 = sc.nextInt();
                             sc.nextLine();
-                        } while (opc2 > 0 && opc2 < 6);
+                        } while (opc2 != 6);
                         break;
                     case 3:
                         awardList();
-                        System.out.println("\nChoose an option: " + menu);
-                        opc = sc.nextInt();
-                        sc.nextLine();
                         break;
                     case 4:
                         System.out.println(YELLOW+"\n¡Thank you for playing!\n"+RESET);
@@ -319,10 +312,8 @@ public class User{
                 }
             } catch (InputMismatchException e) {
                 System.out.println(RED+"\n\tPlease enter a number option"+RESET);
-                System.out.println("\nChoose an option: " + menu);
                 sc.nextLine();
             } catch (Exception e) {
-                System.out.println("\nChoose an option: " + menu);
                 sc.nextLine();
             }
         }

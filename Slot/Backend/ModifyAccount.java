@@ -11,7 +11,7 @@ public class ModifyAccount {
     public void enterDollars(int ingresapesos, String[] usuario) {
         int dineroUsuario = Integer.parseInt(usuario[2]);
         dineroUsuario += ingresapesos;
-        System.out.println(GREEN+"\tThe new balance is: " + dineroUsuario+RESET);
+        System.out.println(GREEN+"\n\t\tThe new balance is: " + dineroUsuario+RESET);
 
         try {
             String guardarInformacion = "";
@@ -50,9 +50,9 @@ public class ModifyAccount {
         int dineroUsuario = Integer.parseInt(usuario[2]);
         if (dineroUsuario != 0 && dineroUsuario >= pesacred) {
             creditosUsuario += pesacred*10;
-            System.out.println("\n\tThe new credit amount is: " + GREEN+ creditosUsuario+RESET);
+            System.out.println("\n\t\tThe new credit amount is: " + GREEN+ creditosUsuario+RESET);
             dineroUsuario -= pesacred;
-            System.out.println("\tRemaining dollars: "+GREEN + dineroUsuario+RESET);
+            System.out.println("\t\tRemaining dollars: "+GREEN + dineroUsuario+RESET);
 
             try {
                 String guardarInformacion = "";
@@ -88,7 +88,7 @@ public class ModifyAccount {
                 e.printStackTrace();
             }
         } else {
-            System.out.println("There is not enough dollars to convert to credits");
+            System.out.println(YELLOW+"\n\t\tThere is not enough dollars to convert to credits"+RESET);
         }
     }
 
