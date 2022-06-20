@@ -107,15 +107,23 @@ java Slot.Slot
 
 7. After leave, the second menu will appear. In the menu:
 * If you choose option 2 you can modify the account to:
-  * Opcion 1[](#)
-  * Opcion 2[](#)
-  * Opcion 3[](#)
-  * Opcion 4[](#)
-  * Opcion 5[](#)
+  * [Deposit Dollars](#how-to-deposit-money)
+  * Change [dollars to credits](#)
+  * Change [credits to dollars](#)
+  * [Withdraw dollars](#)
+  * Save and exit[](#)
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174662437-ead73b02-7db6-4cf3-97b5-914acfb77478.png" alt="Roulette">
 </p>
+
+* If you choose option 3 you can check the [prize table](#prize-table)
+* If you choose option 4, the program will finish.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174681646-b7ef92b5-d74e-456c-815c-e10e7eb2d2c7.png" alt="Roulette">
+</p>
+
 
 ## How to create an account?
 
@@ -154,6 +162,35 @@ java Slot.Slot
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174660665-b4a7ba41-9b5c-4f64-a685-83dafae232e9.png" alt="Combinations">
 </p> 
+
+## Change dollars to credits
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174682299-ce64113e-b105-45b2-b4da-788724b801e2.png" alt="Combinations">
+</p> 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174682300-5218fff4-761f-4781-87b4-e63d436c12e7.png" alt="Combinations">
+</p> 
+
+
+## Change credits to dollars
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174682294-5cba59de-7b58-4376-933b-9ee4b96e9d8c.png" alt="Combinations">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174682296-95a6368f-4e08-4cec-b3ce-33b8d9ebd3c2.png" alt="Combinations">
+</p>
+
+
+## Withdraw dollars
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174682282-e2c46b86-0ed0-45d1-ab00-23edca683fe7.png" alt="Combinations">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174682285-d21c374c-7c41-4013-b2a0-6395bb36072d.png" alt="Combinations">
+</p>
 
 ## Winning examples
 <div align="center">
