@@ -71,16 +71,31 @@ java Slot.Slot
 
 1. The first step is to enter the game with your account (username and password), If you don't have an account you can [Create](#how-to-create-an-account) one.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/174520439-611c1569-53ac-4fd7-b427-f6cef2d9bf70.png" alt="Second menu">
+  <img src="https://user-images.githubusercontent.com/6312342/174520439-611c1569-53ac-4fd7-b427-f6cef2d9bf70.png" alt="Logged succesful">
 </p>
 
 2. The program will display a welcome message showing the amount of dollars and credit you have.
   
-3. If you have enough money, you can play by entering option #1, otherwise you will have to deposit money into your account and a second menu with the new options available.
+3. If you have enough money, you can play by entering option #1, otherwise you will have to [deposit money](#how-to-deposit-money) into your account and a second menu with the new options available.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/174521953-8802538f-40fb-4903-8ce4-6fc1c6fd8167.png" alt="Play">
+  <img src="https://user-images.githubusercontent.com/6312342/174521953-8802538f-40fb-4903-8ce4-6fc1c6fd8167.png" alt="Second menu">
 </p>
-![second_menu](https://user-images.githubusercontent.com/6312342/174521953-8802538f-40fb-4903-8ce4-6fc1c6fd8167.png)
+
+4. After choosing option 1, the program will ask you if you want to enter the letter P to pull the lever or E to exit the play option.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174522534-7b1cde9d-cac9-4e88-a7af-8a3807fa6983.png" alt="Play menu">
+</p>
+
+5. When you enter the letter P, it will ask you to enter the bet (only accepts bets of 5, 7, 10, 15, 20, 30, 50 or 100 dollars) and after enter the bet, the result of the roulette will be printed
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174522695-6f560377-2e73-42eb-b0e4-74cc6c68647b.png" alt="Roulette">
+</p>
+
+
+
+
+
+
 
 
 ## How to create an account?
@@ -90,18 +105,22 @@ java Slot.Slot
 * You should see a message that the account was created successfully, if this is not the case, you entered the passwords wrong and you must re-enter the passwords
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/174520136-672c0183-0454-408b-9a54-045a2c0d1772.png" alt="Combinations" width="250px">
+  <img src="https://user-images.githubusercontent.com/6312342/174520136-672c0183-0454-408b-9a54-045a2c0d1772.png" alt="Combinations">
 </p>
 
 The minimum balance to enter the account is 20 dollars and the maximum is 1,000,000 dollars.
 
 Only accept bets of 5, 7, 10, 20, 50 dollars
 
+## How to deposit money? 
+
+
+
 ## How could I win?
 The ways to win is by having the items in the next 5 prize lines.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/173405073-cb46149c-2b38-4371-9989-2af5f15b8af6.png" alt="Awards" height="300px" style="cursor: none">
+  <img src="https://user-images.githubusercontent.com/6312342/173405073-cb46149c-2b38-4371-9989-2af5f15b8af6.png" alt="Awards" height="300px">
 </p>
 
 But there is the possibility that prize lines are mixed and thus have a higher reward, for example:
