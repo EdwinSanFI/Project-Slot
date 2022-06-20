@@ -72,7 +72,7 @@ Only accept bets of 5, 7, 10, 20, 50 dollars
 # How could I win?
 There are 5 possibles ways to win
 
-<p align="center" style="cursor: none">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/173405073-cb46149c-2b38-4371-9989-2af5f15b8af6.png" alt="Awards" height="300px" style="cursor: none">
 </p>
 
@@ -88,17 +88,18 @@ But also, you can 2 ways to win at the same time, for example:
 
 This is the prize table when you bet 5 dollars.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/173397528-3ab9e12b-f3c7-474f-9d8c-02591fd91424.png" alt="Betting Table" height="500px">
+  <img src="https://user-images.githubusercontent.com/6312342/174515288-9874a248-5b9c-4fac-af6d-97723256ca43.png" alt="Betting Table" height="500px">
 </p>
 
 # Probability
 
 Probability to get the objects
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/173405343-d768af9d-8595-4db3-bd67-af11db284d87.png" alt="Betting Table" height="500px">
+  <img src="https://user-images.githubusercontent.com/6312342/174515340-31c9ac34-df0a-47da-bf13-397932a566d5.png" alt="Probability to get an object" height="500px">
 </p>
 
 # Results
+
 <ul>
   <li> When you get 3 objets on one line, they are painted on color red</li>
   <li>When you get 4 objets on one line, they are painted on color yellow</li>
@@ -107,7 +108,7 @@ Probability to get the objects
   <li>When you get 3+ objets on the line V, they are painted on color green</li>
 </ul>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/6312342/173405491-becb1453-7066-42b8-95d2-967e8020b95f.png" alt="Betting Table" height="500px">
+  <img src="https://user-images.githubusercontent.com/6312342/174515450-908dfedb-010b-4bd4-bdc4-c8c79db41046.png" alt="Betting Table" height="500px">
 </p>
 
 For the bets we use the next rule of 3:
@@ -130,4 +131,3 @@ You can check the list of awards [here](#prize-table)
 
 # Contributing
 Contributions are very welcome!
-
