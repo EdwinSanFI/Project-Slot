@@ -123,13 +123,33 @@ java Slot.Slot
   <img src="https://user-images.githubusercontent.com/6312342/174520136-672c0183-0454-408b-9a54-045a2c0d1772.png" alt="Combinations">
 </p>
 
-The minimum balance to enter the account is 20 dollars and the maximum is 1,000,000 dollars.
+* Then, you need to log in to your account. As the account is new you do not have money available, therefore you must [deposit money](#how-to-deposit-money).
 
-Only accept bets of 5, 7, 10, 20, 50 dollars
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174658901-2909d120-7273-46db-8f0d-a697ddc227c5.png" alt="Combinations">
+</p>
 
 ## How to deposit money? 
 
+* Choose the option 2 **Modify Account**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174659287-7e17d94c-1da6-4051-9905-a81ffeee7a05.png" alt="Combinations">
+</p>
 
+* Choose the option 1 **Deposit dollars**
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174660384-3ff6ce80-1a0d-4e0d-b3b2-0e440c8d0f68.png" alt="Combinations">
+</p>
+
+* Enter the amount, the minimum balance to enter the account is 20 dollars and the maximum is 1,000,000 dollars.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174660530-7e560fe9-51d1-4e3a-981c-3b631ff486c5.png" alt="Combinations">
+</p>
+
+* If you enter an amount outside the range, it will display an error message.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174660665-b4a7ba41-9b5c-4f64-a685-83dafae232e9.png" alt="Combinations">
+</p> 
 
 ## Winning examples
 <div align="center">
