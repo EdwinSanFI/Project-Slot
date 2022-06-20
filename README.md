@@ -8,6 +8,7 @@
 - [Overview](#overview)
 - [What does the program use?](#what-does-the-program-use)
 - [Get Started](#get-started)
+- [File Organization](#file-organization)
 - [How to play?](#how-to-play)
   - [How could I win?](#how-could-i-win)
   - [How cto create an account?](#how-to-create-an-account)
@@ -23,8 +24,7 @@
 - [Contributing](#contributing)
 
 # Overview
-The project consists of the development of an application where the user can experience a casino together with the intensity of emotions that this entails.
-Being the final project of this subject, the use of knowledge acquired in the last months. 
+The project consists of the development of an application where the user can experience a casino together with the intensity of emotions that this entails. Being the final project of the subject **Oriented Object Programming** using the knowledge acquired in the last months. 
 
 When logging in, the program indicates if the username and password entered match the data stored in the database. If the data is correct, the program gives access to the main menu of the game, displaying a welcome message with the relevant data of the account, such as the balance and available credits. The user could play, add money, make credit-money conversion, see list of prizes or simply close the active session. If the access data is not correct, the user could try again.
 
@@ -70,6 +70,12 @@ java Slot.Slot
 
 [Play](#how-to-play) and Enjoy the project! :D
 
+# File Organization
+
+This is the file organization using **package**.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/6312342/174683849-7a2b059f-d537-41c1-ae13-97ce5aff76c2.png" alt="Package">
+</p>
 
 # How to play?
 
