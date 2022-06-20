@@ -117,7 +117,7 @@ For the bets we use the next rule of 3:
 </p>
 
 * Example 1:
-  * When you have 3 watermelons, you could get 160 credits but if your bet was of 5 dollars you will get 160 credits.
+  * When you have 3 watermelons, you could get 160 credits when your bet 5 dollars.
 * Example 2:
   * When you have 3 watermelons, you could get 160 credits but if your bet was of 50 dollars you will get 1,600 credits.
 * Example 3:
