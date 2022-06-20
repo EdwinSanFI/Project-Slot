@@ -180,7 +180,6 @@ public class ModifyAccount {
 	    }
     }
 
-    // Este es un metodo que cree para modificar los creditos del usuario una vez que gana
     public void modifyCredits(int creditos, String[] usuario, int apuestas) {
         try {
             String guardarInformacion = "";
@@ -223,7 +222,6 @@ public class ModifyAccount {
         }
     }
 
-    /** Modifica el dinero del usuario */
     public void modifyMoney(int dinero, String[] usuario){
         try {
             String guardarInformacion = "";

@@ -23,7 +23,6 @@ public class User{
     String YELLOW = "\u001B[33m";
     String RESET = "\u001B[0m";
 
-    // ! DONE
     public void awardList () {
         System.out.println(BLUE+"\n\tAward list for bets of 5 dollars:\n"+RESET);
         ArrayList<String[]> awards = new ArrayList<>();
@@ -63,7 +62,6 @@ public class User{
     	}
     }
 
-    // ! DONE
     public String[] searchUser(String userName) {
         try {
             BufferedReader csvReader = new BufferedReader(new FileReader("./Slot/Backend/accounts.csv"));
@@ -86,7 +84,6 @@ public class User{
         return null;
     }
 
-    // ! DONE
     public boolean automaticsPull(String[] user) {
         /** Print the user information */
         printUserInformation(user);
@@ -169,20 +166,42 @@ public class User{
         System.out.println(YELLOW+"\t\t\t\t\t\t\tCredits: "+RESET+GREEN+user[3]+RESET);
     }
 
+    public String[] logged(String user[]){
+        int opInitial = 0;
+        String menuInitial = "\n1. Create account \n2. Log In";
+        try {
+            System.out.println("\nChoose an option: "+menuInitial);
+            opInitial = sc.nextInt();
+            switch (opInitial) {
+                case 1:
+                    ac.createAccount();
+                    break;
+                case 2:
+                    user = ac.logIn();
+                    break;
+                default:
+                    System.out.println(RED+"\nInvalid number option"+RESET);
+                    break;
+            }
+        } catch (InputMismatchException e) {
+            System.out.println(RED+"\n\tPlease enter a number option"+RESET);
+            sc.nextLine();
+        } catch (NullPointerException e) {
+            System.out.println(RED+"\n\tPlease enter a valid user name"+RESET);
+            sc.nextLine();
+        }
+        finally {
+            return user;
+        }
+    }
+
     // ! DONE
     // Metodo main
     public void main() {
         int opc = 0;
-        int opInitial = 1;
         int opc2 = 0;
         String user[] = null;
-        String menu = "\n1. Play" +
-                "\n2. Modify account" +
-                "\n3. See award list" +
-                "\n4. Log out";
-
-        String menuInitial = "\n1. Create account"+
-                            "\n2. Log In";
+        String menu = "\n1. Play \n2. Modify account \n3. See award list \n4. Log out";
 
         String menuModify = "\n\t1. Enter dollars" +
                                 "\n\t2. Dolars to credits" +
@@ -190,127 +209,121 @@ public class User{
                                 "\n\t4. Withdraw dollars" +
                                 "\n\t5. Save and exit";
 
-        boolean logged = false;
-        while (opInitial > 0 && opInitial < 3 || logged == false || user == null) {
-            System.out.println("\nChoose an option: "+menuInitial);
-            opInitial = sc.nextInt();
-            switch (opInitial) {
-                case 1:
-                    logged = ac.createAccount();
-                    break;
-                case 2:
-                    /** Cuando ingrese el user, se guarda su info en un String[] */
-                    user = ac.logIn();
-                    logged = true;
-                    opInitial = 3;
-                    break;
-            }
+        while(user == null) {
+            user = logged(user);
         }
 
         /** 2 */
         // Metodo de bienvenida al user
         ac.welcome(user);
-        System.out.println("\nChoose an option: " + menu);
-        opc = sc.nextInt();
-        while (opc > 0 && opc <= 4) {
-            user = searchUser(user[0]);
-            switch (opc) {
-                case 1:
-                    boolean automaticsPull = true;
-                    while(automaticsPull){
-                        user = searchUser(user[0]);
-                        automaticsPull = automaticsPull(user);
-                    }
-                    System.out.println("\nChoose an option: " + menu);
-                    opc = sc.nextInt();
-                    sc.nextLine();
-                    break;
-                case 2:
-                    System.out.println("\tMODIFY ACCOUNT\n");
-                    System.out.println("\tChoose an option: " + menuModify);
-                    System.out.print("\t");
-                    opc2 = sc.nextInt();
-                    do {
-                        user = searchUser(user[0]);
-                        switch (opc2) {
-                            case 1:
-                                System.out.println(BLUE+"\t\tENTER DOLLARS"+RESET);
-                                System.out.println(YELLOW+"\n\tYou must enter a minimum of 20 or a maximum of 1,000,000 dollars"+RESET);
-                                System.out.println("\tAmount of dollars to enter: ");
-                                System.out.print("\t");
-                                int enterDollars = sc.nextInt();
-                                if (enterDollars > 19 && enterDollars < 1000000) {
-                                    ma.enterDollars(enterDollars, user);
-                                } else {
-                                    System.out.println(RED+"\t\tInvalid Quantity"+RESET);
-                                }
-                                break;
-                            case 2:
-                                System.out.println(BLUE+"\t\tDOLLARS TO CREDITS"+RESET);
-                                System.out.println("\n\tDollars available: " + GREEN+ user[2]+RESET);
-                                System.out.println("\tAmount of dollars you want to convert to credits: ");
-                                System.out.print("\t");
-                                int dollarsCredits = sc.nextInt();
-                                // pesosACreditos(pesacred, user);
-                                ma.dollarsToCredits(dollarsCredits, user);
-                                break;
-                            case 3:
-                                System.out.println(BLUE+"\t\tCREDITS TO DOLLARS"+RESET);
-                                System.out.println("\n\tAvailable credits: " + GREEN +user[3]+RESET);
-                                System.out.println("\n\tEnter the amount of credits you want to convert to dollars without decimal: ");
-                                System.out.print("\t");
-                                int creditsDollars = sc.nextInt();
-                                ma.creditsToDollars(creditsDollars, user);
-                                break;
-                            case 4:
-                                System.out.println(BLUE+"\t\tWITHDRAW DOLLARS"+RESET);
-                                System.out.println("\n\tDollars available: " + GREEN+user[2]+RESET);
-                                System.out.println("\tHow much do you want to withdraw? ");
-                                System.out.print("\t");
-                                int dollars = sc.nextInt();
-                                ma.withdrawDollars(dollars, user);
-                                break;
-                            case 5:
-                                System.out.println("\n Going back...");
-                                try{
-                                    Thread.sleep(800);
-                                } catch (Exception e){
-                                    e.getMessage();
-                                }
-                                opc2 = 6;
-                                continue;
-                            default:
-                                System.out.println("\tChoose a correct option" + menuModify);
-                                opc2 = sc.nextInt();
-                                break;
+
+        while (opc != 5) {
+            try {
+                System.out.println("\nChoose an option: " + menu);
+                opc = sc.nextInt();
+                sc.nextLine();
+                user = searchUser(user[0]);
+                switch (opc) {
+                    case 1:
+                        boolean automaticsPull = true;
+                        while(automaticsPull){
+                            user = searchUser(user[0]);
+                            automaticsPull = automaticsPull(user);
                         }
-                        System.out.println(menuModify);
+                        System.out.println("\nChoose an option: " + menu);
+                        opc = sc.nextInt();
+                        sc.nextLine();
+                        break;
+                    case 2:
+                        System.out.println(BLUE+"\tMODIFY ACCOUNT\n"+RESET);
+                        System.out.println("\tChoose an option: " + menuModify);
                         System.out.print("\t");
                         opc2 = sc.nextInt();
+                        do {
+                            user = searchUser(user[0]);
+                            switch (opc2) {
+                                case 1:
+                                    System.out.println(BLUE+"\n\t\tENTER DOLLARS"+RESET);
+                                    System.out.println(YELLOW+"\n\\ttYou must enter a minimum of 20 or a maximum of 1,000,000 dollars"+RESET);
+                                    System.out.println("\t\tAmount of dollars to enter: ");
+                                    System.out.print("\t");
+                                    int enterDollars = sc.nextInt();
+                                    if (enterDollars > 19 && enterDollars < 1000001) {
+                                        ma.enterDollars(enterDollars, user);
+                                    } else {
+                                        System.out.println(RED+"\t\tInvalid Quantity"+RESET);
+                                    }
+                                    break;
+                                case 2:
+                                    System.out.println(BLUE+"\t\tDOLLARS TO CREDITS"+RESET);
+                                    System.out.println("\n\tDollars available: " + GREEN+ user[2]+RESET);
+                                    System.out.println("\tAmount of dollars you want to convert to credits: ");
+                                    System.out.print("\t");
+                                    int dollarsCredits = sc.nextInt();
+                                    // pesosACreditos(pesacred, user);
+                                    ma.dollarsToCredits(dollarsCredits, user);
+                                    break;
+                                case 3:
+                                    System.out.println(BLUE+"\t\tCREDITS TO DOLLARS"+RESET);
+                                    System.out.println("\n\tAvailable credits: " + GREEN +user[3]+RESET);
+                                    System.out.println("\n\tEnter the amount of credits you want to convert to dollars without decimal: ");
+                                    System.out.print("\t");
+                                    int creditsDollars = sc.nextInt();
+                                    ma.creditsToDollars(creditsDollars, user);
+                                    break;
+                                case 4:
+                                    System.out.println(BLUE+"\t\tWITHDRAW DOLLARS"+RESET);
+                                    System.out.println("\n\tDollars available: " + GREEN+user[2]+RESET);
+                                    System.out.println("\tHow much do you want to withdraw? ");
+                                    System.out.print("\t");
+                                    int dollars = sc.nextInt();
+                                    ma.withdrawDollars(dollars, user);
+                                    break;
+                                case 5:
+                                    System.out.println("\n Going back...");
+                                    try{
+                                        Thread.sleep(800);
+                                    } catch (Exception e){
+                                        e.getMessage();
+                                    }
+                                    opc2 = 6;
+                                    continue;
+                                default:
+                                    System.out.println(RED+"\n\tChoose a correct option"+RESET);
+                                    break;
+                            }
+                            System.out.println(menuModify);
+                            System.out.print("\t");
+                            opc2 = sc.nextInt();
+                            sc.nextLine();
+                        } while (opc2 > 0 && opc2 < 6);
+                        break;
+                    case 3:
+                        awardList();
+                        System.out.println("\nChoose an option: " + menu);
+                        opc = sc.nextInt();
                         sc.nextLine();
-                    } while (opc2 > 0 && opc2 < 6);
-                    System.out.println("\nChoose an option: " + menu);
-                    opc = sc.nextInt();
-                    sc.nextLine();
-                    break;
-                case 3:
-                    awardList();
-                    System.out.println("\nChoose an option: " + menu);
-                    opc = sc.nextInt();
-                    sc.nextLine();
-                    break;
-                case 4:
-                    System.out.println(YELLOW+"\n¡Thank you for playing!\n"+RESET);
-                    try{
-                        Thread.sleep(500);
-                    } catch (InterruptedException e){
-                        e.printStackTrace();
-                    }
-                    opc += opc;
-                    break;
-                default:
-                    System.out.println("Choose a correct option");
-                    break;
+                        break;
+                    case 4:
+                        System.out.println(YELLOW+"\n¡Thank you for playing!\n"+RESET);
+                        opc = 5;
+                        try{
+                            Thread.sleep(500);
+                        } catch (InterruptedException e){
+                            e.printStackTrace();
+                        }
+                        break;
+                    default:
+                        System.out.println(RED+"\n\tTry again"+RESET);
+                        break;
+                }
+            } catch (InputMismatchException e) {
+                System.out.println(RED+"\n\tPlease enter a number option"+RESET);
+                System.out.println("\nChoose an option: " + menu);
+                sc.nextLine();
+            } catch (Exception e) {
+                System.out.println("\nChoose an option: " + menu);
+                sc.nextLine();
             }
         }
     }
