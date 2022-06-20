@@ -86,7 +86,7 @@ java Slot.Slot
   <img src="https://user-images.githubusercontent.com/6312342/174522534-7b1cde9d-cac9-4e88-a7af-8a3807fa6983.png" alt="Play menu">
 </p>
 
-5. When you enter the letter P, it will ask you to enter the bet (only accepts bets of 5, 7, 10, 15, 20, 30, 50 or 100 dollars) and after enter the bet, the result of the roulette will be printed
+5. When you enter the letter P, it will ask you to enter the bet (only accepts bets of 5, 7, 10, 15, 20, 30, 50 or 100 dollars) and after enter the bet, the result of the roulette will be printed. You can review [these examples](#winning-examples) when you win
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174522695-6f560377-2e73-42eb-b0e4-74cc6c68647b.png" alt="Roulette">
 </p>
@@ -113,6 +113,42 @@ The minimum balance to enter the account is 20 dollars and the maximum is 1,000,
 Only accept bets of 5, 7, 10, 20, 50 dollars
 
 ## How to deposit money? 
+
+
+
+## Winning examples
+<div align="center">
+  
+  ### Example 1
+  <img src="https://user-images.githubusercontent.com/6312342/174523686-fc4429e4-723b-45be-a249-27e236da8df8.png" alt="Example 1 winning">
+  
+  
+  ### Example 2
+  <img src="https://user-images.githubusercontent.com/6312342/174524259-b1615947-b36f-421b-a19f-4ad90afd5b0f.png" alt="Example 2 winning">
+  
+  
+  ### Example 3
+  <img src="https://user-images.githubusercontent.com/6312342/174523697-889bdb08-a3a4-47b3-9a89-583249afa144.png" alt="Example 3 winning">
+  
+  
+  ### Example 4
+  <img src="https://user-images.githubusercontent.com/6312342/174523698-2eef0f42-09ae-4de0-8fa5-dc68994b5af7.png" alt="Example 4 winning">
+  
+  
+  ### Example 5
+  <img src="https://user-images.githubusercontent.com/6312342/174524257-87f3c0cb-ff80-4285-81cb-347e74c6c90a.png" alt="Example 5 winning">
+  
+  
+  ### Example 6
+  <img src="https://user-images.githubusercontent.com/6312342/174523702-b31b8a58-32f7-4f75-8ced-8afcb924cee6.png" alt="Example 6 winning">
+  
+  
+  ### Example 7
+  <img src="https://user-images.githubusercontent.com/6312342/174523703-6bd4f8f0-37b2-43cd-8454-b2bfb9b11d5e.png" alt="Example 7 winning">
+</div>
+
+
+
 
 
 
