@@ -329,4 +329,8 @@ To know what the prize is according to the bet, we use a rule of 3:
 You can check the list of awards [here](#prize-table)
 
 ## Contributing
-Contributions are very welcome!
+Contributions are very welcome! **Fork** the repository, do and add changes and I will review it!.
+
+Also, you can contact me:
+
+[LinkedIn](#https://www.linkedin.com/in/edwin-san/)
