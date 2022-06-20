@@ -131,12 +131,12 @@ java Slot.Slot
 
 ## How to deposit money? 
 
-* Choose the option 2 **Modify Account**
+* Choose the option 2- **Modify Account**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174659287-7e17d94c-1da6-4051-9905-a81ffeee7a05.png" alt="Combinations">
 </p>
 
-* Choose the option 1 **Deposit dollars**
+* Choose the option 1- **Deposit dollars**
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174660384-3ff6ce80-1a0d-4e0d-b3b2-0e440c8d0f68.png" alt="Combinations">
 </p>
@@ -206,7 +206,7 @@ This is the prize table when you bet 5 dollars. The higher your bet, the higher 
 
 In addition, within the program you can review the prize list.
 
-1. After entering your account, you must choose option 3 **Check prize list**
+1. After entering your account, you must choose option 3- **Check prize list**
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174661416-87fbe448-bef7-4fe8-ac37-b3796d963395.png" alt="Prize List in the program">
