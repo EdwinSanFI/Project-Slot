@@ -191,7 +191,7 @@ This is the file organization using **package**.
   <img src="https://user-images.githubusercontent.com/6312342/174682299-ce64113e-b105-45b2-b4da-788724b801e2.png" alt="Combinations">
 </p> 
 
-* But if you decide to exchange more dollars than you have available, the program will print an error message.
+* But if you decide to exchange more more then you have, the program will print an error message.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682300-5218fff4-761f-4781-87b4-e63d436c12e7.png" alt="Combinations">
@@ -205,7 +205,7 @@ This is the file organization using **package**.
   <img src="https://user-images.githubusercontent.com/6312342/174682294-5cba59de-7b58-4376-933b-9ee4b96e9d8c.png" alt="Combinations">
 </p>
 
-* But if you decide to exchange more credits than you have available, the program will print an error message.
+* But if you decide to exchange more more then you have, the program will print an error message.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174682296-95a6368f-4e08-4cec-b3ce-33b8d9ebd3c2.png" alt="Combinations">
