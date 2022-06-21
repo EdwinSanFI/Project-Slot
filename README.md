@@ -26,11 +26,11 @@
 # Overview
 The project consists of the development of an application where the user can experience a casino together with the intensity of emotions that this entails. Being the final project of the subject **Oriented Object Programming** using the knowledge acquired in the last months. 
 
-When logging in, the program indicates if the username and password entered match the data stored in the database. If the data is correct, the program gives access to the main menu of the game, displaying a welcome message with the relevant data of the account, such as the balance and available credits. The user could play, add money, make credit-money conversion, see list of prizes or simply close the active session. If the access data is not correct, the user could try again.
+When logging in, the program indicates if the username and password entered match the data stored in the database. If the data is correct, the program gives access to the main menu of the game, displaying a welcome message with the relevant data of the account, such as the balance and available credits. The user could play, add money, make credit-money conversion, see a list of prizes or simply close the active session. If the access data is not correct, the user could try again.
 
-When playing the game, the user can choose between pulling the lever or exiting the game. If you choose pull the lever, you will be asked how much you want to bet, because the prize, if you win it, will be based on the initial bet. The bet will be deducted from your balance immediately and the game will start.
+When playing the game, the user can choose between pulling the lever or exiting the game. If the player chooses to pull the lever, he will be asked how much money he wants to bet, as the prize for winning the game will be based on the initial bet. The bet will be deducted from your balance immediately and the game will start.
 
-The prize will depend on the random result of the reels when they finish rolling and, if it is the case, the prize is added to the user's account. If the user does not win nothing, the program will continue asking if you want to bet more or if you want to quit.
+The prize will depend on the random result of the reels when they finish rolling and, if it is the case, the prize is added to the user's account. If the user doesn't win anything, the program will continue asking if you want to bet more or if you want to quit.
 
 # What does the program use?
 
@@ -93,17 +93,17 @@ This is the file organization using **package**.
 
 2. The program will display a welcome message showing the amount of dollars and credit you have.
   
-3. If you have enough money, you can play by entering option #1, otherwise you will have to [deposit money](#how-to-deposit-money) into your account and a second menu with the new options available.
+3. If you have enough money, you can play by entering option #1, otherwise you will have to [deposit money](#how-to-deposit-money) into your account and a second menu with new options will open up.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174521953-8802538f-40fb-4903-8ce4-6fc1c6fd8167.png" alt="Second menu">
 </p>
 
-4. After choosing option 1, the program will ask you if you want to enter the letter P to pull the lever or E to exit the play option.
+4. After choosing option 1, the program will give you the option to enter the letter **P** to pull the lever or enter the letter **E** to exit the game
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174522534-7b1cde9d-cac9-4e88-a7af-8a3807fa6983.png" alt="Play menu">
 </p>
 
-5. When you enter the letter **P**, it will ask you to enter the bet (only accepts bets of 5, 7, 10, 15, 20, 30, 50 or 100 dollars) and after enter the bet, the result of the roulette will be printed. 
+5. When you enter the letter **P**, it will ask you to enter the bet (only accepts bets of 5, 7, 10, 15, 20, 30, 50 or 100 dollars) and after entering the bet, the result of the roulette will be printed. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174522695-6f560377-2e73-42eb-b0e4-74cc6c68647b.png" alt="Roulette">
@@ -124,7 +124,7 @@ This is the file organization using **package**.
 </p>
 
 
-7. After leave, the second menu will appear. In the menu:
+7. After leaving, the second menu will appear. In the menu:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174662437-ead73b02-7db6-4cf3-97b5-914acfb77478.png" alt="Roulette">
