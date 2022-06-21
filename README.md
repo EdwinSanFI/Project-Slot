@@ -257,7 +257,7 @@ This is the file organization using **package**.
 </div>
 
 ## How could I win?
-The ways to win is by having the items in the next 5 prize lines.
+The ways to win the game, is by having the items displayed in at least one of these 5 prize lines.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/173405073-cb46149c-2b38-4371-9989-2af5f15b8af6.png" alt="Prizes" height="300px">
@@ -302,11 +302,11 @@ Probability to get a item.
 ## Results
 
 <ul>
-  <li> When you get 3 items on one line, they are painted on color red</li>
-  <li>When you get 4 items on one line, they are painted on color yellow</li>
-  <li>When you get 5 items on one line, they are painted on color blue</li>
-  <li>When you get 3+ items on the line /\, they are painted on color purple</li>
-  <li>When you get 3+ items on the line V, they are painted on color green</li>
+  <li> When you get 3 items on one line, they are painted in the color red</li>
+  <li>When you get 4 items on one line, they are painted in the color yellow</li>
+  <li>When you get 5 items on one line, they are painted in the color blue</li>
+  <li>When you get 3+ items on the line /\, they are painted in the color purple</li>
+  <li>When you get 3+ items on the line V, they are painted in the color green</li>
 </ul>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/6312342/174515450-908dfedb-010b-4bd4-bdc4-c8c79db41046.png" alt="Betting Table" height="500px">
@@ -318,7 +318,7 @@ To know what the prize is according to the bet, we use a rule of 3:
 </p>
 
 * Example 1:
-  * When you have 3 watermelons, you could get 160 credits when your bet 5 dollars.
+  * When you have 3 watermelons, you could get 160 credits when your bet was 5 dollars.
 * Example 2:
   * When you have 3 watermelons, you could get 160 credits but if your bet was of 50 dollars you will get 1,600 credits.
 * Example 3:
