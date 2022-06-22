@@ -333,4 +333,4 @@ Contributions are very welcome! **Fork** the repository, do and add changes and 
 
 Also, you can contact me:
 
-[LinkedIn](#https://www.linkedin.com/in/edwin-san/)
+[LinkedIn](https://www.linkedin.com/in/edwin-san/)
