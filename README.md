@@ -40,7 +40,7 @@ The prize will depend on the random result of the reels when they finish rolling
 - Polymorphism
 - Abstraction
 - Constructors
-- Try-Catch
+- Gtters and Setters
 - Design Pattern (Prototype)
 - Interfaces
 - Try-catch
