@@ -11,7 +11,7 @@
 - [File Organization](#file-organization)
 - [How to play?](#how-to-play)
   - [How could I win?](#how-could-i-win)
-  - [How cto create an account?](#how-to-create-an-account)
+  - [How to create an account?](#how-to-create-an-account)
   - [How to deposit money?](#how-to-deposit-money)
   - [Change dollars to credits](#change-dollars-to-credits)
   - [Change credits to dollars](#change-credits-to-dollars)
