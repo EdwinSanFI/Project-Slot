@@ -24,7 +24,7 @@
 - [Contributing](#contributing)
 
 # Overview
-The project consists of the development of an application where the user can experience a casino together with the intensity of emotions that this entails. Being the final project of the subject **Oriented Object Programming** using the knowledge acquired in the last months. 
+The project consists of the development of an application where the user can experience a casino together with the intensity of emotions that this entails. The project was created as a final project for a class on **Object-Oriented programming**, meaning that it was designed to demonstrate the knowledge and skills the student had acquired during the class. 
 
 When logging in, the program indicates if the username and password entered match the data stored in the database. If the data is correct, the program gives access to the main menu of the game, displaying a welcome message with the relevant data of the account, such as the balance and available credits. The user could play, add money, make credit-money conversion, see a list of prizes or simply close the active session. If the access data is not correct, the user could try again.
 
