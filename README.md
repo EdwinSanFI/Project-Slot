@@ -4,6 +4,8 @@
 
 ![Slot](https://user-images.githubusercontent.com/6312342/170311333-cc499e49-d6ae-441f-8fc9-b997a683968c.png)
 
+Welcome to the Slot Machine Java application! This project is a casino-themed game developed using Java and designed to demonstrate the principles of Object-Oriented Programming. Experience the thrill of a casino environment and test your luck with this interactive game.
+
 # Table of contents
 - [Overview](#overview)
 - [What does the program use?](#what-does-the-program-use)
@@ -24,29 +26,19 @@
 - [Contributing](#contributing)
 
 # Overview
-The project consists of the development of an application where the user can experience a casino together with the intensity of emotions that this entails. The project was created as a final project for a class on **Object-Oriented programming**, meaning that it was designed to demonstrate the knowledge and skills the student had acquired during the class. 
+This application features a user login system with a database (file) for storing account information, a main menu for accessing various game options, and an immersive slot machine gameplay experience. The project showcases the following OOP concepts and Java programming techniques:
 
-When logging in, the program indicates if the username and password entered match the data stored in the database. If the data is correct, the program gives access to the main menu of the game, displaying a welcome message with the relevant data of the account, such as the balance and available credits. The user could play, add money, make credit-money conversion, see a list of prizes or simply close the active session. If the access data is not correct, the user could try again.
-
-When playing the game, the user can choose between pulling the lever or exiting the game. If the player chooses to pull the lever, he will be asked how much money he wants to bet, as the prize for winning the game will be based on the initial bet. The bet will be deducted from your balance immediately and the game will start.
-
-The prize will depend on the random result of the reels when they finish rolling and, if it is the case, the prize is added to the user's account. If the user doesn't win anything, the program will continue asking if you want to bet more or if you want to quit.
-
-# What does the program use?
-
-<h3 align="center">Object Oriented Programming on Java</h3>
-
-- Inherence
+- Inheritance
 - Polymorphism
 - Abstraction
 - Constructors
-- Gtters and Setters
+- Getters and Setters
 - Design Pattern (Prototype)
 - Interfaces
-- Try-catch
-- Access methods
-- Package
-- Files
+- Exception Handling (try-catch)
+- Access Modifiers
+- Packages
+- File Handling
 
 # Get started
 
@@ -328,9 +320,13 @@ To know what the prize is according to the bet, we use a rule of 3:
 
 You can check the list of awards [here](#prize-table)
 
+<p align="center"><b>Experience the excitement of a casino and test your luck with this interactive Slot Machine Java application!</b></p>
+
+## Learn More
+To learn more about Java and Object-Oriented Programming concepts, explore the following resources:
+
 ## Contributing
 Contributions are very welcome! **Fork** the repository, do and add changes and I will review it!.
 
-Also, you can contact me:
-
-[LinkedIn](https://www.linkedin.com/in/edwin-san/)
+## Contact
+- [LinkedIn](https://www.linkedin.com/in/edwin-san/)
