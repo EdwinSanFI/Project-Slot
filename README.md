@@ -322,9 +322,6 @@ You can check the list of awards [here](#prize-table)
 
 <p align="center"><b>Experience the excitement of a casino and test your luck with this interactive Slot Machine Java application!</b></p>
 
-## Learn More
-To learn more about Java and Object-Oriented Programming concepts, explore the following resources:
-
 ## Contributions & Feedback :speech_balloon:
 
 I appreciate any feedback and suggestions to improve my projects, as well as contributions to the code. Feel free to create an issue or submit a pull request if you'd like to contribute.
