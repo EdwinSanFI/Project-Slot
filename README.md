@@ -325,8 +325,11 @@ You can check the list of awards [here](#prize-table)
 ## Learn More
 To learn more about Java and Object-Oriented Programming concepts, explore the following resources:
 
-## Contributing
-Contributions are very welcome! **Fork** the repository, do and add changes and I will review it!.
+## Contributions & Feedback :speech_balloon:
 
-## Contact
-- [LinkedIn](https://www.linkedin.com/in/edwin-san/)
+I appreciate any feedback and suggestions to improve my projects, as well as contributions to the code. Feel free to create an issue or submit a pull request if you'd like to contribute.
+
+## Connect With Me :handshake:
+If you have any questions, want to discuss ideas or just want to connect, feel free to reach out to me on [LinkedIn](linkedin.com/in/edwin-san/), [GitHub](https://github.com/EdwinSanFI), [Twitter](https://twitter.com/home), [Instagram](instagram.com/edwinsanfi/).
+
+<p align="center"> Thank you for visiting my Project Slot repository, and I hope you enjoy exploring my project! :smiley: </p>
