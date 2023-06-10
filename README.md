@@ -327,6 +327,6 @@ You can check the list of awards [here](#prize-table)
 I appreciate any feedback and suggestions to improve my projects, as well as contributions to the code. Feel free to create an issue or submit a pull request if you'd like to contribute.
 
 ## Connect With Me :handshake:
-If you have any questions, want to discuss ideas or just want to connect, feel free to reach out to me on [LinkedIn](linkedin.com/in/edwin-san/), [GitHub](https://github.com/EdwinSanFI), [Twitter](https://twitter.com/home), [Instagram](instagram.com/edwinsanfi/).
+If you have any questions, want to discuss ideas or just want to connect, feel free to reach out to me on [LinkedIn](https://linkedin.com/in/edwin-san/), [GitHub](https://github.com/EdwinSanFI), [Twitter](https://twitter.com/edwinsanfi), [Instagram](https://instagram.com/edwinsanfi/).
 
 <p align="center"> Thank you for visiting my Project Slot repository, and I hope you enjoy exploring my project! :smiley: </p>
