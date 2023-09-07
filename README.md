@@ -1,6 +1,4 @@
-<h1 align="center">
-  SLOT
- </h1>
+<h1 align="center">🎰 SLOT 🎰</h1>
 
 ![Slot](https://user-images.githubusercontent.com/6312342/170311333-cc499e49-d6ae-441f-8fc9-b997a683968c.png)
 
